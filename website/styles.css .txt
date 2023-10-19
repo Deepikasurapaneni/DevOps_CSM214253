@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about,
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
